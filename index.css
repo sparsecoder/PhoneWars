@@ -1,8 +1,15 @@
+div {
+	padding: 30px;
+	border-radius: 15px;
+	box-shadow: 4px 4px 2px #333;
+}
 #apple {
 	float: left;
 	width: 50%;
+	background-color: #999;
 }
 #android {
 	float: right;
 	width: 50%;
+	background-color: #393;
 }
