@@ -5,11 +5,11 @@ div {
 }
 #apple {
 	float: left;
-	width: 50%;
+	width: 40%;
 	background-color: #999;
 }
 #android {
 	float: right;
-	width: 50%;
+	width: 40%;
 	background-color: #393;
 }
