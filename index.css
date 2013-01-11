@@ -1,17 +1,26 @@
 body {
 	font-family: Myriad Pro;
 }
+
 div {
 	padding: 30px;
 	margin: 15px;
 	border-radius: 15px;
 	box-shadow: 4px 4px 2px #333;
 }
+
+#title {
+	background-color:aqua;
+	margin: auto;
+	width: 800px;
+}
+
 #apple {
 	float: left;
 	width: 40%;
 	background-color: #999;
 }
+
 #android {
 	float: right;
 	width: 40%;
