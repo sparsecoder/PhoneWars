@@ -6,13 +6,19 @@ div {
 	padding: 30px;
 	margin: 15px;
 	border-radius: 15px;
-	box-shadow: 4px 4px 2px #333;
+	box-shadow: 3px 3px 5px #111;
+}
+
+#wrapper {
+	width:800px;
+	margin:auto;
+	padding:30px;
 }
 
 #title {
-	background-color:aqua;
-	margin: auto;
-	width: 800px;
+	background-color: aqua;
+	margin: 10%;
+	width: 80%;
 }
 
 #apple {
