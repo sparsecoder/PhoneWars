@@ -1,0 +1,99 @@
+body {
+	font-family: Myriad Pro;
+	width:800px;
+	margin:auto;
+}
+a {
+    text-decoration: none;
+    color: hsl(206, 80%, 50%);
+}
+
+.roll {
+	display: inline-block;
+	overflow: hidden;
+
+	vertical-align: top;
+
+	-webkit-perspective: 400px;
+	   -moz-perspective: 400px;
+	   -moz-perspective: 400px;
+
+	-webkit-perspective-origin: 50% 50%;
+	   -moz-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+.roll span {
+	display: block;
+	position: relative;
+	padding: 0 2px;
+
+	-webkit-transition: all 400ms ease;
+	   -moz-transition: all 400ms ease;
+	        transition: all 400ms ease;
+	
+	-webkit-transform-origin: 50% 0%;
+	   -moz-transform-origin: 50% 0%;
+	        transform-origin: 50% 0%;
+	
+	-webkit-transform-style: preserve-3d;
+	   -moz-transform-style: preserve-3d;
+	        transform-style: preserve-3d;
+}
+	.roll:hover span {
+		background: #111;
+
+		-webkit-transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+		   -moz-transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+		        transform: translate3d( 0px, 0px, -30px ) rotateX( 90deg );
+	}
+.roll span:after {
+	content: attr(data-title);
+
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 0 2px;
+
+	color: #fff;
+	background: hsl(206, 80%, 30%);
+
+	-webkit-transform-origin: 50% 0%;
+	   -moz-transform-origin: 50% 0%;
+	        transform-origin: 50% 0%;
+
+	-webkit-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+	   -moz-transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+	        transform: translate3d( 0px, 105%, 0px ) rotateX( -90deg );
+}
+
+div {
+	padding: 15px;
+	margin: 15px;
+	border-radius: 15px;
+	box-shadow: 3px 3px 5px #111;
+}
+
+#wrapper {
+	width:800px;
+	margin:auto;
+	padding:30px;
+}
+
+#title {
+	background-color: aqua;
+	margin: 10%;
+	width: 80%;
+}
+
+#apple {
+	float: left;
+	width: 40%;
+	background-color: #999;
+}
+
+#android {
+	float: right;
+	width: 40%;
+	background-color: #393;
+}
