@@ -1,9 +1,11 @@
 body {
 	font-family: Myriad Pro;
+	width:800px;
+	margin:auto;
 }
 
 div {
-	padding: 30px;
+	padding: 15px;
 	margin: 15px;
 	border-radius: 15px;
 	box-shadow: 3px 3px 5px #111;
