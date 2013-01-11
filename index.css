@@ -3,6 +3,7 @@ body {
 }
 div {
 	padding: 30px;
+	margin: 15px;
 	border-radius: 15px;
 	box-shadow: 4px 4px 2px #333;
 }
