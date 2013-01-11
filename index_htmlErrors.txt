@@ -1,5 +1,5 @@
 line 20 column 20 - Warning: <img> lacks "alt" attribute
-line 21 column 5 - Warning: <img> lacks "alt" attribute
+line 20 column 39 - Warning: <img> lacks "alt" attribute
 line 28 column 15 - Warning: <img> lacks "alt" attribute
 line 58 column 21 - Warning: <img> attribute "width" has invalid value "100em"
 line 58 column 21 - Warning: <img> lacks "alt" attribute
