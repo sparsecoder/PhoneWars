@@ -6,7 +6,7 @@ then
 fi
 
 tidy -modify -indent -f index_htmlErrors.txt index.html;
-if [["$?" -gt "1"]]
+if [[ "$?" -gt 1 ]]
 then
   exit 2
 fi
@@ -16,7 +16,7 @@ set -e
 
 stat=`git status --porcelain`
 stlen=${#stat}
-if [["$stlen" -gt "0"]]
+if [[ "$stlen" -gt 0 ]]
 then
   git add index_htmlErrors.txt index.html
   git commit -m "Jenkins"
