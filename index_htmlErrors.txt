@@ -2,10 +2,11 @@ line 20 column 20 - Warning: <img> lacks "alt" attribute
 line 27 column 15 - Warning: <img> lacks "alt" attribute
 line 57 column 21 - Warning: <img> attribute "width" has invalid value "100em"
 line 57 column 21 - Warning: <img> lacks "alt" attribute
+line 61 column 9 - Warning: <iframe> proprietary attribute "allowfullscreen"
 Info: Doctype given is "-//W3C//DTD HTML 4.01 Transitional//EN"
 Info: Document content looks like HTML 4.01 Transitional
 Info: No system identifier in emitted doctype
-4 warnings, 0 errors were found!
+5 warnings, 0 errors were found!
 
 The alt attribute should be used to give a short description
 of an image; longer descriptions should be given with the
